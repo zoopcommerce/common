@@ -1,5 +1,5 @@
 {
-    "name": "superdweebie/common",
+    "name": "zoopcommerce/common",
     "description": "Library used by other Zoop libraries and modules",
     "type": "library",
     "keywords": [],
