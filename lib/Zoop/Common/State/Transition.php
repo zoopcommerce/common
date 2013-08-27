@@ -7,7 +7,7 @@
 namespace Zoop\Common\State;
 
 /**
- * Implementation of Sds\Common\Workflow\TransitionInterface
+ * Implementation of Zoop\Common\State\TransitionInterface
  *
  * @since   1.0
  * @author  Tim Roediger <superdweebie@gmail.com>
