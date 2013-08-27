@@ -12,8 +12,8 @@ namespace Zoop\Common\User;
  * @since   1.0
  * @author  Tim Roediger <superdweebie@gmail.com>
  */
-interface UserInterface{
-
+interface UserInterface
+{
     /**
      * @return string
      */

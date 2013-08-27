@@ -13,8 +13,8 @@ use Zoop\Common\Crypt\SaltInterface;
  * @since   1.0
  * @author  Tim Roediger <superdweebie@gmail.com>
  */
-interface PasswordInterface extends SaltInterface {
-
+interface PasswordInterface extends SaltInterface
+{
     /**
      * Returns password (normally hashed)
      *

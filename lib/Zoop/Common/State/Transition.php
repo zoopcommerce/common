@@ -15,7 +15,7 @@ namespace Zoop\Common\State;
 class Transition implements TransitionInterface
 {
 
-    const arrow = '->';
+    const ARROW = '->';
 
     /**
      *
@@ -29,28 +29,33 @@ class Transition implements TransitionInterface
      */
     protected $to;
 
-    public static function fromString($string){
-        list($from, $to) = explode(self::arrow, $string);
-        if (!isset($from) || (!isset($to))){
+    public static function fromString($string)
+    {
+        list($from, $to) = explode(self::ARROW, $string);
+        if (! isset($from) || (! isset($to))) {
             return false;
         }
         return new static($from, $to);
     }
 
-    public function __construct($from, $to){
+    public function __construct($from, $to)
+    {
         $this->from = (string) $from;
         $this->to = (string) $to;
     }
 
-    public function getFrom() {
+    public function getFrom()
+    {
         return $this->from;
     }
 
-    public function getTo() {
+    public function getTo()
+    {
         return $this->to;
     }
 
-    public function getAction() {
-        return $this->from . self::arrow . $this->to;
+    public function getAction()
+    {
+        return $this->from . self::ARROW . $this->to;
     }
 }

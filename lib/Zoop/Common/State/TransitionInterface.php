@@ -39,5 +39,4 @@ interface TransitionInterface
      * @return string
      */
     public function getAction();
-
 }

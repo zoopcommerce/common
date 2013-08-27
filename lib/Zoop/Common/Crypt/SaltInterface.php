@@ -12,11 +12,10 @@ namespace Zoop\Common\Crypt;
  * @author  Tim Roediger <superdweebie@gmail.com>
  *
  */
-interface SaltInterface {
-
+interface SaltInterface
+{
     /**
      * Returns a salt value that can be used in a hash
      */
     public function getSalt();
-
 }

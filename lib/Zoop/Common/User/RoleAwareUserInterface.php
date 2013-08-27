@@ -12,8 +12,8 @@ namespace Zoop\Common\User;
  * @since   1.0
  * @author  Tim Roediger <superdweebie@gmail.com>
  */
-interface RoleAwareUserInterface {
-
+interface RoleAwareUserInterface
+{
     /**
      * Set all the roles for a identity - overwrites all existing
      *
@@ -49,5 +49,4 @@ interface RoleAwareUserInterface {
      * @return boolean
      */
     public function hasRole($role);
-
 }

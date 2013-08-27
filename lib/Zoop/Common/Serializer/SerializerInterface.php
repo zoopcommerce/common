@@ -45,4 +45,3 @@ interface SerializerInterface
      */
     public function fromJson($data, $classNameKey = '_className', $className = null);
 }
-

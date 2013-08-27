@@ -12,8 +12,8 @@ namespace Zoop\Common\Crypt;
  * @author  Tim Roediger <superdweebie@gmail.com>
  *
  */
-interface KeyInterface {
-
+interface KeyInterface
+{
     /**
      * Returns a key that can be used by an encryption algorithim
      */
